@@ -163,7 +163,7 @@ BentoTilt.propTypes = {
 };
 
 BentoCard.propTypes = {
-  src: PropTypes.func,
+  src: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
